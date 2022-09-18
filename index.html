@@ -5,201 +5,202 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css"/>
+    <link rel="stylesheet" href="style.css" />
     <script src="index.js"></script>
     <script src="https://kit.fontawesome.com/c655d7eb8b.js" crossorigin="anonymous"></script>
     <title>Portfolio</title>
 </head>
 
 <body>
-<div id="header">
-    <div class="container">
-        <nav>
-            <h1 class="name-logo"><span>M</span>ahadi.</h1>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <h1 class="name-logo"><span>M</span>ahadi.</h1>
 
-            <ul>
-                <li><a href="">Home</a></li>
-                <li><a href="#about">About</a></li>
-                <li><a href="#services">Services</a></li>
-                <li><a href="#portfolio">Portfolio</a></li>
-                <li><a href="#contact">Contact</a></li>
-            </ul>
-        </nav>
+                <ul>
+                    <li><a href="">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
 
-        <div class="header-text">
-            <p>Frontend Developer</p>
-            <h1>Hi, I am <span>Mahadi</span><br>Hasan From Bangladesh</h1>
-        </div>
-    </div>
-</div>
-
-<!--About-->
-<div id="about">
-    <div class="container">
-        <div class="row">
-            <div class="about-col-1">
-                <img src="./images/image-with-bag.jpg">
-            </div>
-            <div class="about-col-2">
-                <h1 class="sub-title">About Me</h1>
-                <p>An inquisitive Computer Science Engineering student, skilled in team-based workflows.
-                    Follow the seniors' guidance and seek knowledge from them.
-                    Passionate about new technology and always looking for a new way of solving problems.
-                </p>
-
-                <div class="tab-titles">
-                    <p class="tab-links active-link" onclick="openTab('skills')">Skills</p>
-                    <p class="tab-links" onclick="openTab('experience')">Experience</p>
-                    <p class="tab-links" onclick="openTab('education')">Education</p>
-                </div>
-
-                <div class="tab-contents active-tab" id="skills">
-                    <ul>
-                        <li><span>Web Design</span><br>Web App Development</li>
-                        <li><span>App Development</span><br>Building Android/IOS Apps</li>
-                        <li><span>Full Stack</span><br>Mongodb Express/Next js</li>
-                    </ul>
-                </div>
-
-                <div class="tab-contents" id="experience">
-                    <ul>
-                        <li><span>2020</span><br>Android App (University Project)</li>
-                        <li><span>2021</span><br>E-commerce site (University Project)</li>
-                        <li><span>2022</span><br>Internship at Skill.Jobs</li>
-                    </ul>
-                </div>
-
-                <div class="tab-contents" id="education">
-                    <ul>
-                        <li><span>2019 - current</span><br>B.sc from Daffodil International University</li>
-                    </ul>
-                </div>
-
+            <div class="header-text">
+                <p>Frontend Developer</p>
+                <h1>Hi, I am <span>Mahadi</span><br>Hasan From Bangladesh</h1>
             </div>
         </div>
     </div>
-</div>
 
-
-<!--Services-->
-<div id="services">
-    <div class="container">
-        <h1 class="sub-title">My Services</h1>
-        <div class="services-list">
-            <div>
-                <i class="fas fa-code"></i>
-                <h2>Web Design</h2>
-                <p>Building a new website from scratch or maintaining an existing website.
-                    Efficient with bootstrap for fast development and efficient with
-                    vanilla CSS and tailwind CSS for a unique design.
-                </p>
-            </div>
-
-            <div>
-                <i class="fab fa-app-store"></i>
-                <h2>App Development</h2>
-                <p>Android frontend development with android's native language kotlin.
-                    For both android/os development cross-platform react native can be used.
-                </p>
-            </div>
-
-            <div>
-                <i class="fa-sharp fa-solid fa-terminal"></i>
-                <h2>Full Stack</h2>
-                <p>Backend solution with mongodb and express.
-                    Firebase is also available for easy and first startup.
-                </p>
-            </div>
-
-        </div>
-    </div>
-</div>
-
-
-<!--Portfolio-->
-<div id="portfolio">
-    <div class="container">
-        <h1 class="sub-title">My Works</h1>
-        <div class="work-list">
-            <div class="work">
-                <img src="./images/work-1.png" alt="">
-                <div class="layer">
-                    <h3>University Communication App</h3>
-                    <p>There's a story section that university students can share stories or news related to the campus.
-                        From the trending section, students get to know what's going on in the campus and
-                        from the upcoming section they know what's coming up next.
-                        Again there is a chat section, where they can chat with each other.
+    <!--About-->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="./images/image-with-bag.jpg">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About Me</h1>
+                    <p>An inquisitive Computer Science Engineering student, skilled in team-based workflows.
+                        Follow the seniors' guidance and seek knowledge from them.
+                        Passionate about new technology and always looking for a new way of solving problems.
                     </p>
-                    <a href="https://github.com/im-mahadi/Batch54">
-                        <i class="fas fa-external-link-alt"></i>
-                    </a>
-                </div>
-            </div>
 
-            <div class="work">
-                <img src="./images/work-2.png" alt="">
-                <div class="layer">
-                    <h3>Sleep Tracking App</h3>
-                    <p>Users can keep track of their sleep duration and improve it over time.
-                        There's also an alarm option that users can use to set an alarm.
-                    </p>
-                    <a href="https://github.com/im-mahadi/Sleep-Tracker">
-                        <i class="fas fa-external-link-alt"></i>
-                    </a>
-                </div>
-            </div>
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="openTab('skills')">Skills</p>
+                        <p class="tab-links" onclick="openTab('experience')">Experience</p>
+                        <p class="tab-links" onclick="openTab('education')">Education</p>
+                    </div>
 
-            <div class="work">
-                <img src="./images/work-3.png" alt="">
-                <div class="layer">
-                    <h3>Car Renting Website</h3>
-                    <p>Available all the best cars to rent.
-                        Users can choose the one based on their requirements.
-                        The website also has a payment option to make payments online.
-                    </p>
-                    <a href="#">
-                        <i class="fas fa-external-link-alt"></i>
-                    </a>
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span>Web Design</span><br>Web App Development</li>
+                            <li><span>App Development</span><br>Building Android/IOS Apps</li>
+                            <li><span>Full Stack</span><br>Mongodb Express/Next js</li>
+                        </ul>
+                    </div>
+
+                    <div class="tab-contents" id="experience">
+                        <ul>
+                            <li><span>2020</span><br>Android App (University Project)</li>
+                            <li><span>2021</span><br>E-commerce site (University Project)</li>
+                            <li><span>2022</span><br>Internship at Skill.Jobs</li>
+                        </ul>
+                    </div>
+
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <li><span>2019 - current</span><br>B.sc from Daffodil International University</li>
+                        </ul>
+                    </div>
+
                 </div>
             </div>
         </div>
     </div>
-</div>
 
-<!--Contact-->
-<div id="contact">
-    <div class="container">
-        <div class="row">
-            <div class="contact-left">
-                <h1 class="sub-title">Contact Me</h1>
-                <p><i class="fas fa-paper-plane"></i>me.mahadi@outlook.com</p>
-                <p><i class="fas fa-phone-square-alt"></i>01933885369</p>
 
-                <div class="social-icons">
-                    <a href="https://www.facebook.com/this.mahadi"><i class="fab fa-facebook"></i></a>
-                    <a href="https://github.com/im-mahadi"><i class="fab fa-github"></i></a>
-                    <a href="https://www.instagram.com/this.mahadi"><i class="fab fa-instagram"></i></a>
-                    <a href="https://www.linkedin.com/in/mahadi-hasan-637a87240"><i class="fab fa-linkedin"></i></a>
+    <!--Services-->
+    <div id="services">
+        <div class="container">
+            <h1 class="sub-title">My Services</h1>
+            <div class="services-list">
+                <div>
+                    <i class="fas fa-code"></i>
+                    <h2>Web Design</h2>
+                    <p>Building a new website from scratch or maintaining an existing website.
+                        Efficient with bootstrap for fast development and efficient with
+                        vanilla CSS and tailwind CSS for a unique design.
+                    </p>
                 </div>
 
-                <a href="./images/mahadi-hasan-cv.pdf" download class="btn">Download CV</a>
-            </div>
+                <div>
+                    <i class="fab fa-app-store"></i>
+                    <h2>App Development</h2>
+                    <p>Android frontend development with android's native language kotlin.
+                        For both android/os development cross-platform react native can be used.
+                    </p>
+                </div>
 
-            <div class="contact-right">
-                <form>
-                    <input type="text" name="Name" placeholder="Your Name" required>
-                    <input type="email" name="Email" placeholder="Your Email" required>
-                    <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
-                    <button type="submit" class="btn btn2">Submit</button>
-                </form>
+                <div>
+                    <i class="fa-sharp fa-solid fa-terminal"></i>
+                    <h2>Full Stack</h2>
+                    <p>Backend solution with mongodb and express.
+                        Firebase is also available for easy and first startup.
+                    </p>
+                </div>
+
             </div>
         </div>
     </div>
 
-    <div class="copyright">
-        <p>Copyright &#169 Mahadi <i class="fas fa-heart"></i> Hasan</p>
+
+    <!--Portfolio-->
+    <div id="portfolio">
+        <div class="container">
+            <h1 class="sub-title">My Works</h1>
+            <div class="work-list">
+                <div class="work">
+                    <img src="./images/work-1.png" alt="">
+                    <div class="layer">
+                        <h3>University Communication App</h3>
+                        <p>There's a story section that university students can share stories or news related to the
+                            campus.
+                            From the trending section, students get to know what's going on in the campus and
+                            from the upcoming section they know what's coming up next.
+                            Again there is a chat section, where they can chat with each other.
+                        </p>
+                        <a href="https://github.com/im-mahadi/Batch54">
+                            <i class="fas fa-external-link-alt"></i>
+                        </a>
+                    </div>
+                </div>
+
+                <div class="work">
+                    <img src="./images/work-2.png" alt="">
+                    <div class="layer">
+                        <h3>Sleep Tracking App</h3>
+                        <p>Users can keep track of their sleep duration and improve it over time.
+                            There's also an alarm option that users can use to set an alarm.
+                        </p>
+                        <a href="https://github.com/im-mahadi/Sleep-Tracker">
+                            <i class="fas fa-external-link-alt"></i>
+                        </a>
+                    </div>
+                </div>
+
+                <div class="work">
+                    <img src="./images/work-3.png" alt="">
+                    <div class="layer">
+                        <h3>Car Renting Website</h3>
+                        <p>Available all the best cars to rent.
+                            Users can choose the one based on their requirements.
+                            The website also has a payment option to make payments online.
+                        </p>
+                        <a href="#">
+                            <i class="fas fa-external-link-alt"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
     </div>
-</div>
+
+    <!--Contact-->
+    <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="sub-title">Contact Me</h1>
+                    <p><i class="fas fa-paper-plane"></i>me.mahadi@outlook.com</p>
+                    <p><i class="fas fa-phone-square-alt"></i>01933885369</p>
+
+                    <div class="social-icons">
+                        <a href="https://www.facebook.com/this.mahadi"><i class="fab fa-facebook"></i></a>
+                        <a href="https://github.com/im-mahadi"><i class="fab fa-github"></i></a>
+                        <a href="https://www.instagram.com/this.mahadi"><i class="fab fa-instagram"></i></a>
+                        <a href="https://www.linkedin.com/in/mahadi-hasan-637a87240"><i class="fab fa-linkedin"></i></a>
+                    </div>
+
+                    <a href="./images/Mahadi Resume.pdf" download class="btn">Download CV</a>
+                </div>
+
+                <div class="contact-right">
+                    <form>
+                        <input type="text" name="Name" placeholder="Your Name" required>
+                        <input type="email" name="Email" placeholder="Your Email" required>
+                        <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                        <button type="submit" class="btn btn2">Submit</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+
+        <div class="copyright">
+            <p>Copyright &#169 Mahadi <i class="fas fa-heart"></i> Hasan</p>
+        </div>
+    </div>
 
 </body>
 
